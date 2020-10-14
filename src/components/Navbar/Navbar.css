@@ -1,0 +1,25 @@
+nav {
+    height: 100vh;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    background: transparent;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 30px;
+}
+
+li > a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 200;
+    color: white;
+}
